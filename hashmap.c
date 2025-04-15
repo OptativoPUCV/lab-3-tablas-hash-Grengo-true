@@ -76,7 +76,6 @@ void enlarge(HashMap * map) {
         map->capacity = old_capacity;
         return;
     }
-    long old_size = map->size;
     map->size = 0;
     for (long i = 0; i<old_capacity; i++)
     {

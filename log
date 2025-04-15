@@ -4,3 +4,14 @@ Mon, Apr 14, 2025 10:06:02 PM:
  tests:  1|5
 total_score: 10/70
 eeef3b7
+Mon, Apr 14, 2025 11:17:21 PM: 
+ hashmap.c | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+Compilation failed
+In file included from test.c:4:0:
+hashmap.c: In function 'insertMap':
+hashmap.c:48:13: error: implicit declaration of function 'isequal' [-Werror=implicit-function-declaration]
+         if (isequal(map->buckets[index]->key, key));
+             ^~~~~~~
+cc1.exe: all warnings being treated as errors
+0f5244f

@@ -15,3 +15,9 @@ hashmap.c:48:13: error: implicit declaration of function 'isequal' [-Werror=impl
              ^~~~~~~
 cc1.exe: all warnings being treated as errors
 0f5244f
+Mon, Apr 14, 2025 11:18:25 PM: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  5|4
+total_score: 30/70
+4934fe2
